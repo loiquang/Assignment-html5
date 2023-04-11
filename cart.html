@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="AssignmentCss.css">
+</head>
+<body onload="showgiohang()">
+    <div id="div_head">
+        <header class="header_big">
+            <div class="div_insize">
+                <div class="div_insize_insize">
+                    <div class="div_insize_insize_in">
+
+                        <div class="ul_list">
+                            <ul>
+                                <li class="list_list_1">190090009</li>
+                                <li class="list_list">354 Lý Thường
+                                    Kiệt, phường 15, Quận 10,
+                                    tp Hồ Chí MInh</li>
+                                <li class="list_list_1">quangloi0408@gmai.com</li>
+                            </ul>
+                        </div>
+                        <div class="center"></div>
+                        <div class="ul_img">
+                            <ul>
+                                <li class="list_img"><img
+                                        class="icon-icon"
+                                        src="hinh/facebook-app-symbol.png"
+                                        alt="" srcset=""></li>
+                                <li class="list_img"><img
+                                        class="icon-icon"
+                                        src="hinh/instagram.png" alt=""
+                                        srcset=""></li>
+                                <li class="list_img"><img
+                                        class="icon-icon"
+                                        src="hinh/twitter.png" alt=""
+                                        srcset=""></li>
+                                <li class="list_img" style="padding-top:
+                                    2px;"><img class="icon-icon"
+                                        src="hinh/youtube.png"
+                                        alt="" srcset=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div_insize_1">
+
+
+                    <div class="div-insize-1-1">
+
+                        <div class="img-firt">
+                            <img id="img-icon" src="hinh/tree-img.png"
+                                alt="">
+
+                        </div>
+                        <div class="ul-home-and-cart">
+                            <div class="ul-home">
+                                <ul>
+                                    
+                                    <a href="Assignment_html5.html"><li class="list_list1">TRANG
+                                        CHỦ</li></a>
+                                <a href="sanpham.html"><li class="list_list1">CỬA
+                                        HÀNG</li></a>
+                                <a href="Gioithieu.html"><li class="list_list1">GIỚI
+                                        THIỆU</li></a>
+                                <a href=""><li class="list_list1">TIN
+                                        TỨC</li></a>
+                                <a href="dangnhap.html"><li class="list_list1">LIÊN
+                                        HỆ</li></a>
+
+                                </ul>
+                            </div>
+                            <div class="cart">
+                                <p class="p3">Giỏ hàng</p>
+                                <span class="p3">0</span>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="menu-none">
+                    <div class="row-row">
+                        <div class="menu-in-menu">
+                            <img class="logo-in-none" src="hinh/list.png"
+                                alt="">
+                            <div class="ul-home-and-cart">
+                                <div class="ul-home">
+                                    <ul>
+                                        
+                                        <a href="Assignment_html5.html"><li class="list_list1">TRANG
+                                            CHỦ</li></a>
+                                    <a href="sanpham.html"><li class="list_list1">CỬA
+                                            HÀNG</li></a>
+                                    <a href="Gioithieu.html"><li class="list_list1">GIỚI
+                                            THIỆU</li></a>
+                                    <a href=""><li class="list_list1">TIN
+                                            TỨC</li></a>
+                                    <a href="dangnhap.html"><li class="list_list1">LIÊN
+                                            HỆ</li></a>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-firt-in-menu">
+                            <img id="img-icon-in-menu"
+                                src="hinh/tree-img.png"
+                                alt="">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5">
+            <div class="col-lg-8 table-responsive mb-5">
+                <table class="table table-bordered text-center mb-0">
+                    <thead class="bg-secondary text-dark">
+                        <tr>
+                            <th>Products</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Remove</th>
+                        </tr>
+                    </thead>
+              
+    
+    <tbody id="showcart"  class="align-middle">
+        <tr>
+            <td class="align-middle"><img src="hinh/tui-300x300.jpg" alt="" style="width: 50px;">Garden Tool Belt –
+                Green</td>
+            <td class="align-middle">1230000</td>
+            <td class="align-middle">
+                <div class="input-group quantity mx-auto" style="width: 100px;">
+                <input type="hidden" value ="`+ i + `">
+                    <div class="input-group-btn">
+                        <button style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-sm btn-primary btn-minus">
+                        <i class="fa fa-minus">-</i>
+                        </button>
+                    </div>
+                    <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                    <div class="input-group-btn">
+                        <button style="background-color: rgb(40, 70, 40); color: #fff;"  class="btn btn-sm btn-primary btn-plus">
+                            <i class="fa fa-plus">+</i>
+                        </button>
+                    </div>
+                </div>
+            </td>
+            <td class="align-middle">123000</td>
+            <td  class="align-middle"><button style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-sm btn-primary"><i  class="fa fa-times">X</i></button></td>
+           </tr>
+    
+           <tr>
+            <td class="align-middle"><img src="hinh/tui-300x300.jpg" alt="" style="width: 50px;">Garden Tool Belt –
+                Green</td>
+            <td class="align-middle">1230000</td>
+            <td class="align-middle">
+                <div class="input-group quantity mx-auto" style="width: 100px;">
+                <input type="hidden" value ="`+ i + `">
+                    <div class="input-group-btn">
+                        <button style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-sm btn-primary btn-minus">
+                        <i class="fa fa-minus">-</i>
+                        </button>
+                    </div>
+                    <input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">
+                    <div class="input-group-btn">
+                        <button style="background-color: rgb(40, 70, 40); color: #fff;"  class="btn btn-sm btn-primary btn-plus">
+                            <i class="fa fa-plus">+</i>
+                        </button>
+                    </div>
+                </div>
+            </td>
+            <td class="align-middle">123000</td>
+            <td  class="align-middle"><button style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-sm btn-primary"><i  class="fa fa-times">X</i></button></td>
+           </tr>
+    
+    </tbody>
+</table>
+</div>
+    <div class="col-lg-4">
+             
+        <div class="input-group">
+            <input id="macp1" type="text" class="form-control p-4" placeholder="Coupon Code">
+            <div class="input-group-append">
+                <button id="macoupon" style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-primary">Apply Coupon</button>
+            </div>
+        </div>
+  
+        <div id = "that"  class="card border-secondary mb-5">
+            <div class="a12345">
+                <div class="card-header bg-secondary border-0">
+                <h4 class="font-weight-semi-bold m-0">Cart Summary</h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-3 pt-1">
+                    <h6  class="font-weight-medium">Subtotal</h6>
+                    <h6 class="font-weight-medium">1230000</h6>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <h6 class="font-weight-medium">couppon</h6>
+                    <h6 class="font-weight-medium"></h6>
+                </div>
+              </div>
+              <div class="card-footer border-secondary bg-transparent">
+                <div class="d-flex justify-content-between mt-2">
+                    <h5 class="font-weight-bold">Total</h5>
+                    <h5  class="font-weight-bold">1230000<span></h5>
+                </div>
+             
+                <button onclick ="trucp(this)" style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-block btn-primary my-3 py-3">Trừ Coupon</button>
+                <button onclick ="trucp(this)" style="background-color: rgb(40, 70, 40); color: #fff;" class="btn btn-block btn-primary my-3 py-3"><a href="checkout.html">Proceed To Checkout</a></button>
+              </div></div>
+        </div>
+        </div>
+        <div class="foot-foot-big">
+            <div class="in-foot">
+                <div class="img-foot"><img class="img-in-foot"
+                        src="hinh/tree-img.png" alt=""></div>
+                <div class="note-foot">
+                    <p class="p2">Call Us: 800-454-9272</p>
+                    <p class="p2">New York, USA – 1060 Firs Avenue, Muswell
+                        Hill</p>
+                </div>
+                <div class="logo-foot">
+                    <img class="logo-in-foot" src="hinh/facebook.png"
+                        alt="">
+                    <img class="logo-in-foot" src="hinh/linkedin.png"
+                        alt="">
+                    <img class="logo-in-foot" src="hinh/twitter.png" alt="">
+                    <img class="logo-in-foot" src="hinh/tumblr.png" alt="">
+                    <img class="logo-in-foot" src="hinh/pinterest.png"
+                        alt="">
+                </div>
+                <div class="note-foot">
+                    <p class="p2">© 2020 Garden Theme by Long Themes</p>
+                    <p class="p2">Proudly powered by WordPress</p>
+                </div>
+            </div>
+
+        </div>
+<script ></script>
+</body>
+</html>

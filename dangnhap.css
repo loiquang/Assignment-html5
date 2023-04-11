@@ -1,0 +1,56 @@
+
+body{
+width: 100%;
+height: 100%;
+    background: url(hinh/back.jpg);
+    
+    background-position-y: -200px;
+}
+#wraper{
+   
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(237, 197, 197, 0.8);
+    padding: 30px 30px 40px ;
+    box-shadow: 0px 0px 17px 2px rgba(117, 105, 105, 0.8);
+    border-radius: 10px;
+}
+.form-heading{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #47594c;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: #47594c;
+}
+.form-submit{
+    background: transparent;
+    border:1px solid #fff;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding:6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top:30px;
+}
+.form-submit:hover{
+    border: 1px solid #47594c;
+}

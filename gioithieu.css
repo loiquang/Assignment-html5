@@ -1,0 +1,14 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.center-123{
+    width: 100%;
+    height: 400px;
+}
+.in-center{
+    width: 50%;
+   max-height:  50%;
+    margin-top:300px;
+}
